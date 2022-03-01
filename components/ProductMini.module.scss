@@ -1,0 +1,27 @@
+@import '../styles/variables';
+
+.product {
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+}
+
+.box {
+  width: 80%;
+  height: 10rem;
+  background-color: $color-gray;
+}
+
+h2 {
+  color: $color-text-primary;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+p {
+  color: $color-text-primary;
+  font-size: 1rem;
+}

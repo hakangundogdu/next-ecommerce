@@ -1,0 +1,79 @@
+@import '../../styles/variables';
+
+.nav {
+  margin: 1rem auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 0.5rem;
+}
+
+.icon {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-right: 1.2rem;
+  text-decoration: none;
+  color: $color-text-primary;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: $color-text-primary;
+    margin: 0 1rem;
+
+    &:hover,
+    &.active,
+    &:active {
+      color: $color-text-secondary;
+    }
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 1.2rem;
+
+  svg {
+    font-size: 1.1rem;
+  }
+
+  input {
+    margin-left: 0.5rem;
+    border: none;
+    outline: none;
+  }
+}
+
+.rightnav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+
+  svg {
+    font-size: 1.1rem;
+  }
+
+  p {
+    margin-left: 0.5rem;
+  }
+
+  a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: $color-text-primary;
+    margin: 0 1rem;
+
+    &:hover,
+    &.active,
+    &:active {
+      color: $color-text-secondary;
+    }
+  }
+}
